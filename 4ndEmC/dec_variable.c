@@ -22,7 +22,7 @@ printf("\t\t (string):  'string' possui:        %zu bytes\n\n", sizeof(string));
 
 numero  = 25;                  printf("\t Novo valor da variavel: %d\n", numero);
 salario = 1010.10;             printf("\t Novo valor da variavel: %.2f\n", salario);
-consumo_total = 5050.507;      printf("\t Novo valor da variavel: %.2lf\n", consumo_total);
+consumo_total = 5050.507;      printf("\t Novo valor da variavel: %.3lf\n", consumo_total);
 sinal_ativado = 0;             printf("\t Novo valor da variavel: %d\n", sinal_ativado);
 letra = 'T';                   printf("\t Novo valor da variavel: %c\n", letra);
 strcpy(string, "Messi M10");   printf("\t Novo valor da variavel: %s\n\n", string);
